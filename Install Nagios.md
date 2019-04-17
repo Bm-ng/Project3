@@ -273,7 +273,7 @@ notifications_enabled 0
 ```sh
 define service {
     use generic-service
-    host_name remotehost
+    host_name yourhost
     service_description CPU Load
     check_command check_nrpe!check_load
 }
