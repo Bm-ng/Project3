@@ -269,6 +269,16 @@ check_command check_ssh
 notifications_enabled 0
 }
 ```
+**CPU**
+```sh
+define service {
+    use generic-service
+    host_name remotehost
+    service_description CPU Load
+    check_command check_nrpe!check_load
+}
+```
+
 - Nếu bạn không chắc chắn về việc sử dụng các dịch vụ chung, nó đơn giản là kế thừa các giá trị của một mẫu dịch vụ được gọi là `"generic-service"` được xác định use `generic-service` theo mặc định  
 
 Bây giờ hãy lưu và thoát. Tải lại cấu hình Nagios của bạn để đặt bất kỳ thay đổi nào có hiệu lực:
