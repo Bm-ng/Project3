@@ -1,5 +1,5 @@
 # Project3
-# Cách Cài Đặt Nagios 4
+# Cách Cài Đặt Nagios 4 và Giám Sát Máy Chủ trên CentOS 7
 ## Yêu cầu: 
 - Bài lab thực hiện trên 2 máy Centos, một máy đóng vai trò làm server (`10.10.10.16/24`) , một máy làm client ( máy được giám sát - `10.10.10.16/24`).
 - Máy Centos server có cài LAMP.
