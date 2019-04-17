@@ -252,6 +252,7 @@ notification_period 24x7
 - Với tập tin cấu hình ở trên, Nagios sẽ chỉ giám sát nếu máy chủ lưu trữ lên hoặc xuống. Nếu điều này là đủ cho bạn, hãy lưu và thoát rồi khởi động lại Nagios
 
 - Thêm bất kỳ khối dịch vụ nào cho các dịch vụ bạn muốn theo dõi. Lưu ý rằng giá trị của check_command xác định những gì sẽ được theo dõi, bao gồm các giá trị ngưỡng trạng thái. Dưới đây là một số ví dụ mà bạn có thể thêm vào tệp cấu hình của máy chủ lưu trữ của mình:
+
 **PING**
 ```sh
 define service {
